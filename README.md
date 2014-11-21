@@ -41,6 +41,11 @@ If you want to configure a few different lazy-loaded scenarios, you can supply a
 	window.easyLazyImages( ['break-3', 'break-4'], 'main [data-image-src]' );
  	window.easyLazyImages( ['break-4'], 'aside [data-image-src]' );
 
+## Requirements
+
+ * `watchResize()` (part of [Easy Resize Watchers](https://github.com/easy-designs/easy-resize-watchers.js))
+ * `getActiveMQ()` *required for named media query support* (part of [Easy Resize Watchers](https://github.com/easy-designs/easy-resize-watchers.js))
+
 ## Demo
 
 See [this Codepen](http://codepen.io/aarongustafson/full/XJJoeR/) ([source](http://codepen.io/aarongustafson/pen/XJJoeR))
